@@ -6,6 +6,7 @@ authors:
   - family-names: "Brisson"
     given-names: "Jean-François"
     affiliation: "Spark AI NLP"
+    orcid: "https://orcid.org/0009-0000-9778-5374"
 version: 2.0.0
 date-released: "2026-09-29"
 doi: 10.5281/zenodo.23049350
