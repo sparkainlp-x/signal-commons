@@ -1,5 +1,7 @@
 # Signal Commons
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23049350.svg)](https://doi.org/10.5281/zenodo.23049350)
+
 Signal Commons explores a narrow sharing problem: labs may want to compare telemetry anomalies without exchanging raw residual streams. This offline proof of concept takes a **classical 512-channel residual frame**, divides it into **16 groups of 32 channels**, and emits a small categorical incident postcard. It implements no Internet service or cross-lab transport.
 
 ## Workflow and MVP scope
