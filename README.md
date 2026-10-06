@@ -1,6 +1,6 @@
 # Signal Commons
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23049350.svg)](https://doi.org/10.5281/zenodo.23049350)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23049349.svg)](https://doi.org/10.5281/zenodo.23049349)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
 [![Status: research prototype](https://img.shields.io/badge/status-research%20prototype-orange.svg)](#workflow-and-mvp-scope)
 [![Evidence: SYNTHETIC](https://img.shields.io/badge/evidence-SYNTHETIC-blue.svg)](#workflow-and-mvp-scope)
