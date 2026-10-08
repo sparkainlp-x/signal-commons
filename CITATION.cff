@@ -10,6 +10,13 @@ authors:
 version: 2.0.1
 date-released: "2026-10-08"
 doi: 10.5281/zenodo.23049349
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23049349
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: 10.5281/zenodo.23241550
+    description: "Version DOI for v2.0.1"
 license: AGPL-3.0-only
 repository-code: "https://github.com/sparkainlp-x/signal-commons"
 abstract: "Offline proof of concept: coarse categorical incident postcards from 512-channel classical residual frames, with no raw-data sharing."

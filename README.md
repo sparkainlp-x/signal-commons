@@ -106,6 +106,10 @@ This is the JSON emitted by the built-in synthetic demo. The demo injects an ele
 
 A real, consented pilot should measure alert precision and recall against independently adjudicated events; false-alert rate on quiet and shifted-baseline frames; agreement across labs for the same known event; accidental coarse-signature match rates for unrelated events; sensitivity to calibration and operating-regime changes; and whether participants can interpret the postcard without access to raw samples. These are proposed measurements, not results from this prototype.
 
+## Citation
+
+See [CITATION.cff](CITATION.cff). Archived on Zenodo: concept DOI [10.5281/zenodo.23049349](https://doi.org/10.5281/zenodo.23049349) (all versions); v2.0.1: [10.5281/zenodo.23241550](https://doi.org/10.5281/zenodo.23241550).
+
 ## License
 
 This software is available under the GNU Affero General Public License v3.0 only (AGPL-3.0-only); see [LICENSE](LICENSE).
