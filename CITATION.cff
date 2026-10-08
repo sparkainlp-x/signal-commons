@@ -1,15 +1,15 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata from this file."
-title: "Signal Commons"
+title: "Signal Commons: coarse categorical incident postcards from 512-channel residual frames"
 type: software
 authors:
   - family-names: "Brisson"
     given-names: "Jean-François"
     affiliation: "Spark AI NLP"
     orcid: "https://orcid.org/0009-0000-9778-5374"
-version: 2.0.0
-date-released: "2026-09-29"
-doi: 10.5281/zenodo.23049350
+version: 2.0.1
+date-released: "2026-10-08"
+doi: 10.5281/zenodo.23049349
 license: AGPL-3.0-only
 repository-code: "https://github.com/sparkainlp-x/signal-commons"
 abstract: "Offline proof of concept: coarse categorical incident postcards from 512-channel classical residual frames, with no raw-data sharing."

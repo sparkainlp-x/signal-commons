@@ -1,0 +1,40 @@
+{
+  "upload_type": "software",
+  "title": "Signal Commons: coarse categorical incident postcards from 512-channel residual frames",
+  "version": "2.0.1",
+  "publication_date": "2026-10-08",
+  "description": "<p>Signal Commons is an offline proof of concept for a narrow sharing problem: comparing telemetry anomalies between teams without exchanging raw residual streams. It takes one classical 512-channel residual frame, divides it into 16 groups of 32 channels, scores each group's RMS with a robust z-score and an absolute noise baseline, and reduces the result to a small categorical incident postcard (incident class, severity band, affected-group-count band and coarse arrangement pattern). Each postcard carries a versioned SHA-256 fingerprint, and an optional local index reports whether the same coarse signature has been seen before.</p><p>Scope: the thresholds, default noise level and category boundaries are illustrative heuristics, not calibrated detector settings. Fingerprints match coarse signatures, so distinct events can intentionally share one. There is no network service or cross-site transport, and the bundled demo frame is SYNTHETIC.</p><p>Usage: Python 3.10 or later, standard library only. Run <code>python3 signal_commons.py --demo</code> for the reproducible demo, or <code>python3 signal_commons.py --input frame.json</code> for your own frame. Tests: <code>python3 -m unittest -v test_signal_commons.py</code> (run in CI on Python 3.10 to 3.13).</p><p>Citation: cite the concept DOI <a href=\"https://doi.org/10.5281/zenodo.23049349\">10.5281/zenodo.23049349</a> for all versions, or the version DOI of the release you used. Source code: <a href=\"https://github.com/sparkainlp-x/signal-commons\">github.com/sparkainlp-x/signal-commons</a>. Licence: AGPL-3.0-only; commercial licensing is available (see COMMERCIAL-LICENSE.md).</p>",
+  "creators": [
+    {
+      "name": "Brisson, Jean-François",
+      "affiliation": "Spark AI NLP",
+      "orcid": "0009-0000-9778-5374"
+    }
+  ],
+  "access_right": "open",
+  "license": "AGPL-3.0-only",
+  "keywords": [
+    "telemetry",
+    "anomaly summarization",
+    "512-channel residuals",
+    "robust z-score",
+    "data minimization",
+    "fingerprinting",
+    "offline analysis",
+    "Python"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/sparkainlp-x/signal-commons",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ],
+  "language": "eng",
+  "communities": [
+    {
+      "identifier": "spark-ai-nlp"
+    }
+  ],
+  "notes": "Evidence status: SYNTHETIC example data; no field performance is claimed. Commercial licensing: see COMMERCIAL-LICENSE.md."
+}
